@@ -14,8 +14,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.ensemble import VotingRegressor
 
-races_df = pd.read_csv('./data//races.csv',delimiter=",",header=0, index_col='race_id')
-runs_df = pd.read_csv('./data//runs.csv', delimiter=",", header=0)
+races_df = pd.read_csv('./races.csv',delimiter=",",header=0, index_col='race_id')
+runs_df = pd.read_csv('./runs.csv', delimiter=",", header=0)
 
 print(races_df.shape)
 print(runs_df.shape)
